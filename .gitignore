@@ -1,0 +1,36 @@
+# Ignore o ambiente virtual
+venv/
+
+# Ignore arquivos do sistema
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore configurações do editor (como VS Code)
+.vscode/
+.idea/
+
+# Ignore logs e arquivos temporários
+*.log
+*.tmp
+
+# Ignore dependências criadas por builds
+*.egg-info/
+*.dist-info/
+
+# Ignore arquivos de cache do Flask
+instance/
+*.db
+*.sqlite3
+
+# Ignore arquivos relacionados ao SO
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de lock e pacotes Python
+*.lock
+pip-log.txt
+
+# Ignore arquivos de ambiente
+.env
+*.env
